@@ -107,31 +107,60 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="center-block text-center">
-                <div class="small"><h1 id="content-title">Eviction Prediction<hr class="style14"></h1></div>
-            </div>
 
-            <h1 class="text-info">Pair Plot</h1> 
+<br><br>
+
+        <div class = "container" >
+            <div class = "row">
+              <div class = "col-md-8" style = "background-color: white">
+                <div class= "main_cont">
+                  <br>
+                 <p class='h3'>Pair Plots: Click Through for Correlation Matrix</p>
+                 <br>
+                    <a href="corr_matrix.html">
+                    <img src = "pairplot.png" height="800"></a>
+                    <br>
+                    <br>
+                    <p class="h6">For the machine learning portion of our project, we decided to first plot a pair plot using seaborn with our data to find potentially interesting relationships to examine further. As you can see, there are lot of relationships to explore in our data, but we were most concerned with the relationship between race, education, familial status, and evictions.</p>
+                        <br>
+                    <p class="h6">After assembling and cleaning the dataset, we created single linear regressions for each of the elements we were interested in examining further. We also ran a multivariate linear regression in order to see if there was any predictive value in combining the two demographic factors with the highest r-squared scores from our linear regression. From there we created a residual plot.
+                      </p>
+                    <br>
+                    <p class="h6">Our models resulted in the following scores:
+                    <br>
+                    Evictions vs % Minority Population 0.26933930267062645
+                    <br>
+                    Evictions vs % of Single Female Households with Children:  0.24105539414019683
+                    <br>
+                    Evictions vs % of Households with Less Than HS Diploma: 0.1464574308797829
+                    <br>
+                    Evictions vs % Minority Population and % Single Female Households with Children:<br> 
+                    Training Score: 0.2325314927657959 <br>
+Testing Score: 0.26769520019577986
+                    </p>
 
 
-
-            <div class="text-center">
-                 <img src="pairplot.png" class="rounded" alt="...">
+                      
                 </div>
+                       
+                </div>
+    
+                <div class = "col-md-4" style = "background-color: white">
+                  <div>
+                    <br>
+                    <p class='h3'>Linear Regression and Multivariate Regression Plots</p>
+                    <img src ="minoritypopulationvseviction.png" height="300">
+                    <img src = "nohsdiplomavseviction.png" height="300">
+                    <img src = "singlefemalehouseholdsvsevictions.png" height="300">
+                    <img src = "residualplot.png" height="300">
+                    </div> 
+                  </div>
+                </div>
+    
             </div>
+      
+      
         </div>
-        <br><br>
-        <br>
-
-
-
-        <!-- See Week 15, Folder 2, 01-Ins_Dropdown_Events -->
-        <!-- Potentially we can have a dropdown menu that allows the user to select what they want to look at.-->
-        <!-- Changing the dataset can allow us to change the Flask route the user is looking at. -->
-
-
-
 
 
 
@@ -146,3 +175,4 @@
 
     </body>
 </html>
+
