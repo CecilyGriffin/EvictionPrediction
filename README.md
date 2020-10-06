@@ -8,7 +8,8 @@ This project exists to illustrate the problem of evictions in Kansas City, Misso
 <b>2009-2013 Census Data: </b>https://data.kcmo.org/Census/2009-2013-American-Community-Survey-Basic-Census-T/m98j-r6wj <br>
 <b>EvictionLab: </b>https://evictionlab.org/<br>
 <b>Assisted Housing: National and Local: </b>https://www.huduser.gov/portal/datasets/assthsg.html <br>
-<b>ZipDataMaps: </b>https://www.zipdatamaps.com<br><br>
+<b>ZipDataMaps: </b>https://www.zipdatamaps.com<br>
+<b>Further reading: </b>https://endhomelessness.org/homelessness-in-america/homelessness-statistics/state-of-homelessness-2020/<br>
 
 
 Credits: Katie Buckner, AnnMarie Morrison, Mercy Griffin, Areej Humaydan
